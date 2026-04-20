@@ -15,14 +15,7 @@ namespace G_NET_33_Linq01
         static void Main(string[] args)
 
         {
-            static void PrintHeader(int num, string title)
-            {
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine($"\n{'─',-60}");
-                Console.WriteLine($"  Exercise {num}: {title}");
-                Console.WriteLine($"{'─',-60}");
-                Console.ResetColor();
-            }
+           
 
             var products = Source.ProductList;
             var customers = Source.CustomerList;
